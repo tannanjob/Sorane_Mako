@@ -1,0 +1,52 @@
+.profile_font{
+    position: absolute;
+    font-size: 23px;
+    font-family: "lightnovel";
+    color:#55B9FA;
+    text-shadow:
+        2px 2px 0px #f3f1e6, -2px -2px 0px #f3f1e6,
+        -2px 2px 0px #f3f1e6,  2px -2px 0px #f3f1e6;
+    margin: 0;
+}
+
+.profile-title{
+    text-align: center;
+    font-family: "lightnovel";
+    color:rgb(34,108,158);
+    text-shadow: 
+    2px 2px 0px #f3f1e6, -2px -2px 0px #f3f1e6,
+    -2px 2px 0px #f3f1e6,  2px -2px 0px #f3f1e6;
+    margin: 0 auto;
+}
+
+.profile_box{
+    display: flex;
+}
+
+.profile_picture{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.profile_maco_rogo{
+    width : 50%;
+}
+
+.profile_explanation{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.profile_TITLE{
+    position: absolute;
+    top: 70px;
+    font-size: 60px;
+    font-family: "lightnovel";
+    color:#55B9FA;
+    text-shadow:
+        2px 2px 0px #f3f1e6, -2px -2px 0px #f3f1e6,
+        -2px 2px 0px #f3f1e6,  2px -2px 0px #f3f1e6;
+    margin: 0;
+}

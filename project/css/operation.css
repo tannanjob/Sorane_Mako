@@ -1,0 +1,86 @@
+.operation_font{
+    font-family: "lightnovel";
+    color:rgb(34, 108, 158);
+    text-shadow:
+        2px 2px 0px #f3f1e6, -2px -2px 0px #f3f1e6,
+        -2px 2px 0px #f3f1e6,  2px -2px 0px #f3f1e6;
+    margin: 0;
+}
+
+.page-title{
+    text-align: center;
+    font-family: "lightnovel";
+    color:rgb(34, 108, 158);
+    text-shadow:
+        2px 2px 0px #f3f1e6, -2px -2px 0px #f3f1e6,
+        -2px 2px 0px #f3f1e6,  2px -2px 0px #f3f1e6;
+    margin: 0 auto;
+
+}
+
+.member_form{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.member_form>div:first-of-type{
+    width:85%;
+}
+
+/*
+.member_form>div:last-of-type{
+    width:20%;
+}
+*/
+
+
+.icon_img{
+    display:flex;
+    width: 17rem;
+}
+
+.none_dot{
+    list-style: none;
+}
+
+.operation_sector {
+    position: relative;
+    height: 20%;
+    width: auto;
+}
+
+.operation_item_sector{
+    margin-left: 2rem;
+    margin-right: 2rem;;
+    position: relative;
+    height: auto;
+    width: 90%;
+}
+
+.none_icon_space{
+    display:flex;
+    width: 10rem;
+}
+/*
+
+*/
+@media(max-width:600px){
+    h2{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 0.8rem;
+    }
+    .member_comment{
+        font-size: 0.7rem;
+    }
+    .icon_img{
+        display:flex;
+        width: 7rem;
+    }
+    .none_icon_space{
+        display:flex;
+        width: 7rem;
+    }
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="image/web-icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&family=M+PLUS+1&display=swap" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>空音マコ</title>
+</head>
+
+<body id="body" class="content-background">
+    
+    <!-- content-wrapper:ウインドウ全体を覆う,この中に書く -->
+    <div id="content-wrapper">
+        <div class="menubar">
+            <div id="top-icon">
+                <a href="index.html" class="d-flex align-items-center"><img src="image/web-top-icon.png"
+                        id="top-icon-image" alt="icon画像"></a>
+
+            </div>
+            <a href="profile.html" class="menu-element d-flex align-items-center justify-content-center edge ">
+                <div class="menu-icon"><img src="image/teruteru.png" width="32" height="32" alt="icon画像"></div>
+                PROFILE</a>
+            <a href="voicebanks.html"
+                class="menu-element d-flex align-items-center justify-content-center edge">
+                <img src="image/teruteru.png" class="menu-icon" width="32" height="32" alt="icon画像">
+                VOICEBANKS</a>
+            <a href="operation.html" class="menu-element d-flex align-items-center justify-content-center edge">
+                <img src="image/teruteru.png" class="menu-icon" width="32" height="32" alt="icon画像">
+                INFORMATION</a>
+            <a href="guidline.html" class="menu-element d-flex align-items-center justify-content-center edge">
+                <img src="image/teruteru.png" class="menu-icon" width="32" height="32" alt="icon画像">
+                GUIDLINES</a>
+        </div>
+        <!-- <div class="charaImg">
+            <img src="image/chara.jpg">
+        </div> -->
+        <div class="s2 edge">清楚で華凜な巫女が再び舞い降りる!</div>
+        <div class="charaBox">
+            <div class="content">
+               
+                <div>
+                    <div class="topic edge_R">NEWS</div>
+                    <div class="box box_v">
+                        <div>
+                            <ul>
+                                <li class="box_text list">ホームページ公開</li>
+                                <li class="box_text list">UTAU音源公開</li>
+                                <li class="box_text list">単独音デモ音源「<a href="https://www.nicovideo.jp/watch/sm42018107">フォニイ</a>」公開</li>
+                                <li class="box_text list">連続音デモ音源「<a href="https://www.nicovideo.jp/watch/">回る空うさぎ</a>」公開</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+                <div>
+                    <div class="topic edge_R">関連動画</div>
+                    <div class="box box_h video">
+                        <iframe class="video_elem" width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm42018107" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm42018107">【UTAU音源配布】フォニイ【空音マコ】</a></iframe>
+                        <iframe class="video_elem" width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm42017749" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm42017749">15年前に誕生した偽ボーカロイドが奇跡の復活！【空音マコPR】</a></iframe>
+                        <iframe class="video_elem" width="312" height="176" src="https://ext.nicovideo.jp/thumb/nm2863496" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/nm2863496">VOCALOID 2　cv03 空音マコ 発売決定　デモソング1</a></iframe>
+                        <iframe class="video_elem" width="312" height="176" src="https://ext.nicovideo.jp/thumb/nm2863748" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/nm2863748">VOCALOID 2　cv03  空音マコ 発売決定　デモソング2</a></iframe>
+                        <iframe class="video_elem" width="312" height="176" src="https://ext.nicovideo.jp/thumb/nm2863814" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/nm2863814">VOCALOID 2　cv03 空音マコ 発売決定　デモソング3</a></iframe>
+                    </div>
+                </div>
+            </div>
+            <img class="charaImg" src=".\image\profile\profile_stand.png"alt="読み込みに失敗しました">
+
+            <span class="spacer_h"></span>
+        </div>
+        <script>
+            $(function () {
+                // hoverする要素のclass名
+                $(".list").hover(
+                  function () {
+                    // hoverした時の処理(classを付与)
+                    $(this).toggleClass("list_hover");
+                    //$("li::before").addClass("li_before");
+                  },
+                  function () {
+                    // hoverを外した時の処理(classを外す)
+                    $(this).toggleClass("list_hover");
+                    //$("li::before").removeClass("li_before");
+                  }
+                );
+              });
+        </script>
+    </div>
+    <footer id="footer">
+        <div id="down-icon">
+            <a href="index.html"  class="d-flex align-items-center"><img src="image/web-top-icon.png"
+                    id="down-icon-image" alt="icon画像"></a>
+        </div>
+        <a href="index.html" class="footer-element d-flex align-items-center justify-content-center">トップページに戻る</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="js/style.js"></script>
+    
+</body>
+
+</html>

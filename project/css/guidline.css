@@ -1,0 +1,27 @@
+.guidline_back{
+    background-color: #f3f1e6;
+    margin:4em;
+    padding: 1em;
+}
+
+.page-title{
+    text-align: center;
+    font-family: "lightnovel";
+    color:rgb(34, 108, 158);
+    text-shadow:
+        2px 2px 0px #f3f1e6, -2px -2px 0px #f3f1e6,
+        -2px 2px 0px #f3f1e6,  2px -2px 0px #f3f1e6;
+    margin: 0 auto;
+}
+
+.guidline_sector {
+    position: relative;
+    height: 15%;
+    width: auto;
+}
+
+@media(max-width:600px){
+    p{
+        font-size: 0.8rem;
+    }
+}
